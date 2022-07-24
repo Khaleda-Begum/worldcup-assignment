@@ -17,6 +17,7 @@ main {
 /* ------top section style start------- */
 
 .top-section {
+
           background-color: black;
           color: white;
           height: 480px;
@@ -24,28 +25,36 @@ main {
           padding-bottom: 2%;
 }
 
+
 .top-portion {
+
           display: flex;
           margin-bottom: 2%;
 
 }
 
+
 .top-left-part {
+
           width: 50%;
           padding-left: 3%;
 }
 
+
 .top-title {
+
           font-size: 2.5em;
           color: white;
 
 }
 
 .top-text {
+
           font-size: 18px;
           margin-top: 7%;
           text-align: start;
 }
+
 
 .live-btn {
 
@@ -58,25 +67,164 @@ main {
           border-radius: 5px;
 }
 
+
 .fa-solid {
+
           padding-left: 7px;
 }
 
 .top-right-part {
+
           width: 50%;
           padding: 3%;
 
 }
 
+
 .top-right-part img {
+
           width: 60%;
           margin-left: 10%;
           transition: width 1s linear;
 
 }
 
+
 img:hover {
+
           width: 65%;
 }
 
 /* ------top section style end------- */
+
+
+/* ------blog section style start------- */
+
+.blog-section {
+
+          display: flex;
+          margin-top: 5%;
+
+}
+
+.sidebar-items {
+
+          width: 25%;
+          margin-right: 3%;
+
+
+
+}
+
+.sidebar-item {
+
+          background-color: black;
+          border-radius: 5px;
+          padding: 5%;
+
+}
+
+
+.item {
+          background-color: white;
+          margin: 5%;
+          padding: 5%;
+          border-radius: 10px;
+          text-align: center;
+
+
+
+
+}
+
+
+#unique-item {
+
+          background-color: red;
+}
+
+
+.item a {
+          padding: 10px 20px;
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: normal;
+
+
+}
+
+.blogs-portion {
+          width: 75%;
+
+}
+
+.blogs {
+
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.blog {
+
+          border: 1px solid rgb(144, 142, 142);
+          margin: 2%;
+          border-radius: 10px;
+}
+
+
+.blog img {
+
+          width: 100%;
+          border-radius: 10px 10px 0px 0px;
+}
+
+
+.blog-details {
+
+          margin-top: 3%;
+          margin-bottom: 12%;
+          padding-left: 10px;
+
+}
+
+.blog-btn,
+h2 {
+
+          color: rgb(72, 67, 67);
+}
+
+.blog-icon {
+
+          color: grey;
+          font-family: normal;
+          font-size: 14px;
+          padding-left: 3%;
+}
+
+
+.tablet-btn {
+
+          margin-top: 5%;
+          text-align: center;
+          display: hidden;
+
+}
+
+#button-view {
+          background-color: red;
+          padding: 10px 20px;
+          font-size: medium;
+          font-weight: 600;
+          color: whitesmoke;
+          margin-top: 10px;
+          border-radius: 5px;
+          border: 1px solid red;
+          visibility: hidden;
+
+}
+
+/* ------blog section style end------- */
